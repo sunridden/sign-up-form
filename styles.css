@@ -51,8 +51,8 @@
 }
 
 .textbox {
-    padding-top: 200px;
-    padding-bottom: 70px;
+    margin-top: 200px;
+    margin-bottom: 70px;
     width: 80%;
     font-size: 1.2rem;
 }
@@ -120,5 +120,49 @@
     text-decoration: none;
 }
 
+@media only screen and (max-width: 735px) {
+    
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .background {
+        width: 100vw;
+        height: 210px;
+    }
+
+    .header {
+        padding: 50px;
+        margin: auto;
+    }
+
+    .information {
+        margin: 0;
+    }
+
+    .textbox {
+        margin: 50px auto 50px;
+    }
+
+    .user-info {
+        margin: auto;
+    }
+
+    .form-title {
+        text-align: center;
+    }
+
+    #odin-form {
+        width: 100%;
+    }
+
+    #odin-form p {
+        width: 100%;
+    }
+
+    #odin-form button {
+        margin: 25px auto;
+    }
+}
 
