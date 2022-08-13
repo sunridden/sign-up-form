@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&family=Raleway&display=swap" rel="stylesheet"> 
+<script src="main.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <div class="background">
+            <div class="header">
+                <img class="logo" src="assets/odin-lined.png" alt="Odin Logo" width="80px">
+                <p class="header-text">Odin</p>
+            </div>
+            <div class="copyright">(c)2022 sunridden</div>
+        </div>
+        <div class="information">
+            <div class="textbox">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <br>
+                <p>You <em>know</em> you want to</p>
+            </div>
+            <div class="user-info">
+                <p class="form-title">Let's do this!</p>
+                <form action="" id="odin-form" method="get">
+                    <p>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </p>
+                    <p>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="number">Phone Number</label>
+                        <input type="tel" id="number" name="phone-number">
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" class="error" name="password" required>
+                    </p>
+                    <p>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" class="error" name="confirm-password">
+                    </p>
+                    <button id="submit">Create Account</button>
+                </form>
+            </div>
+            <div>Already have an account?
+                <a class="log-in" href="#">Log In</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

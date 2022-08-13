@@ -1,0 +1,124 @@
+:root {
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    background-image: url("assets/thunder_sunset.jpg");
+    background-color: black;
+    width: 40vw;
+    min-width: 300px;
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 30%;
+    padding: 10px;
+}
+
+.header-text {
+    font-size: 2rem;
+    font-family: 'Mali', cursive;
+}
+
+.copyright {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.information {
+    margin-left: 60px;
+}
+
+.textbox {
+    padding-top: 200px;
+    padding-bottom: 70px;
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+.user-info {
+    color: rgb(185, 185, 185);
+    width: 80%;
+}
+
+.form-title {
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#odin-form {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#odin-form input {
+    display: block;
+    border:  thin solid #E5E7EB;
+    background-color: black;
+    height: 1.5rem;
+    border-radius: 3px;
+    width: 100%;
+}
+
+#odin-form p {
+    width: 40%;
+}
+
+#odin-form input:focus {
+    border: thin solid blue;
+}
+
+#odin-form label {
+    color: #FFCCB3;
+    font-size: 0.7rem;
+}
+
+#odin-form button {
+    background-color: black;
+    color: #FFCCB3;
+    border:  thin solid #FFCCB3;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.1rem;
+}
+
+#odin-form button:hover {
+    background-color: #FFCCB3;
+    color: black;
+}
+
+.log-in {
+    color: #FFCCB3;
+    text-decoration: none;
+}
+
+
+
