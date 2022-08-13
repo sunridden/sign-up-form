@@ -58,14 +58,12 @@
 }
 
 .user-info {
-    color: rgb(185, 185, 185);
     width: 80%;
 }
 
 .form-title {
     text-align: left;
     margin-bottom: 20px;
-    color: white;
     font-size: 1.2rem;
 }
 
@@ -80,6 +78,7 @@
     display: block;
     border:  thin solid #E5E7EB;
     background-color: black;
+    color: #FFCCB3;
     height: 1.5rem;
     border-radius: 3px;
     width: 100%;
